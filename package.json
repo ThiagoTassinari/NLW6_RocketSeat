@@ -4,13 +4,14 @@
   "description": "Projeto desenvolvido para gerenciar perguntar anônimas de usuários direcionados ao dono da página. Projeto desenvolvido na semana NLW RocketSeat na missão Discover.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "Thiago Santos Tassinari",
   "license": "ISC",
   "dependencies": {
     "ejs": "3.1.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node": "^16.3.0"
   }
 }
